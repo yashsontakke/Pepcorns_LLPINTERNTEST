@@ -1,0 +1,93 @@
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+/* Styling for the logo image */
+.logo img {
+    max-width: 50px;
+}
+
+/* Styling for the heading */
+h5 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Styling for location text */
+span.location {
+    font-size: 16px;
+    color: #777;
+}
+
+/* Styling for tags */
+.tags span {
+    display: inline-block;
+    margin-right: 5px;
+    font-size: 12px;
+    background-color: #f1f1f1;
+    padding: 3px 8px;
+    border-radius: 5px;
+}
+
+/* Styling for the subheading */
+.subheading {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/* Styling for links */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* Styling for the video container */
+.video-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+    /* 16:9 aspect ratio (h / w * 100) */
+}
+
+/* Styling for the video iframe */
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Styling for investor details */
+.investor-details {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Styling for investor details items */
+.investor-details div {
+    text-align: center;
+}
+
+/* Styling for the login button */
+.login-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Styling for the minimum investment text */
+.minimum-investment {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #777;
+}

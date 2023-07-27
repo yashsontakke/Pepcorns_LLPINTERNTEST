@@ -1,0 +1,106 @@
+/* Style the footer container */
+.footer-container {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+/* Style the footer content */
+footer {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Style the logo */
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+/* Style the social media icons */
+ul.social-media li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+/* Style the footer links */
+ul.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+ul.footer-links li {
+    margin-bottom: 10px;
+}
+
+ul.footer-links h4 {
+    margin-bottom: 15px;
+}
+
+ul.footer-links a {
+    color: #333;
+    text-decoration: none;
+}
+
+/* Style the contact information */
+ul.contact-info {
+    list-style: none;
+    padding: 0;
+}
+
+ul.contact-info li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+ul.contact-info .material-symbols-outlined {
+    margin-right: 5px;
+}
+
+/* Style the legal links */
+ul.legal-links {
+    list-style: none;
+    padding: 0;
+}
+
+ul.legal-links li {
+    margin-bottom: 10px;
+}
+
+ul.legal-links a {
+    color: #555;
+    text-decoration: none;
+}
+
+/* Style the disclaimer paragraph */
+.disclaimer {
+    font-size: 14px;
+    color: #777;
+    margin-top: 20px;
+}
+
+/* Media Query for responsiveness */
+@media screen and (max-width: 768px) {
+    footer {
+        flex-wrap: wrap;
+    }
+
+    ul.footer-links {
+        flex: 0 0 50%;
+        margin-bottom: 20px;
+    }
+
+    ul.footer-links h4 {
+        margin-bottom: 10px;
+    }
+
+    ul.legal-links {
+        flex: 0 0 50%;
+    }
+
+    .disclaimer {
+        margin-top: 10px;
+    }
+}

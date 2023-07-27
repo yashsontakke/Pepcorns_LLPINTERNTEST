@@ -1,0 +1,84 @@
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar__left ul,
+.navbar__center ul,
+.navbar__right ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.navbar__left li,
+.navbar__center li,
+.navbar__right li {
+    margin-left: 20px;
+}
+
+.navbar__left a,
+.navbar__center a,
+.navbar__right a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar__left a:hover,
+.navbar__center a:hover,
+.navbar__right a:hover {
+    text-decoration: underline;
+}
+
+/* Styling for the Learn dropdown */
+.dropDown {
+    position: relative;
+}
+
+.dropBtn {
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    padding: 8px 0;
+}
+
+.dropDown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-item {
+    display: block;
+    padding: 8px 16px;
+    color: #333;
+    text-decoration: none;
+}
+
+.dropdown-item:hover {
+    background-color: #ddd;
+}
+
+/* Styling for login and get started buttons */
+.navButton {
+    padding: 8px 16px;
+    background-color: #fff;
+    color: #333;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.navButton:hover {
+    background-color: #ddd;
+    color: #333;
+}
