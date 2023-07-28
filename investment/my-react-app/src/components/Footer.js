@@ -3,24 +3,15 @@ import './Footer.css';
 
 const Footer = () => {
   return (
-    <div className="footer-container">
+    <div className="footer-container" style={{background:"#212592" , color:'white' }}>
       <footer>
         <div>
           <ul>
-            <li><img src="./assets/img/logo.png" alt="" className="logo" /></li>
+            <li><img src="https://cdn.logo.com/hotlink-ok/logo-social.png" style={{ width: "80px" }} /></li>
             <li>
               <span>Enabling everyday people to invest <br /> in startups they believe in</span>
             </li>
-            <li>
-              <ul className="social-media">
-                <li>
-                  <a href="https://www.facebook.com/Pepcorns/">
-                    <img src="./assets/img/facebook.svg" style={{ width: "20px" }} />
-                  </a>
-                </li>
-                {/* Add other social media icons here */}
-              </ul>
-            </li>
+            
           </ul>
         </div>
         <div>

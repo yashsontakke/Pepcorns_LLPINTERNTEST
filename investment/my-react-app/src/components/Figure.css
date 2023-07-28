@@ -11,9 +11,17 @@
     border-radius: 5px;
     /* Add rounded corners to the images */
 }
+.figures{
+    width:70%
+}
 
 /* Optional: Style the captions if you want */
 .fig-cap {
     text-align: center;
     font-style: italic;
 }
+@media screen and (max-width: 994px) {
+    .figures{
+        width:100%
+    }
+  }

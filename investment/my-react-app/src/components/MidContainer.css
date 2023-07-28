@@ -6,16 +6,16 @@
     padding: 20px;
 }
 
+.logo{
+    display:flex;
+}
 /* Styling for the logo image */
 .logo img {
     max-width: 50px;
 }
 
 /* Styling for the heading */
-h5 {
-    font-size: 24px;
-    margin-bottom: 10px;
-}
+
 
 /* Styling for location text */
 span.location {
@@ -38,56 +38,93 @@ span.location {
     font-size: 16px;
     margin-top: 10px;
 }
-
-/* Styling for links */
-a {
-    color: #007bff;
-    text-decoration: none;
+.target{
+    display:flex;
 }
-
-/* Styling for the video container */
-.video-container {
-    position: relative;
-    overflow: hidden;
-    padding-top: 56.25%;
-    /* 16:9 aspect ratio (h / w * 100) */
+.mid-container{
+    width:100%;
+ 
 }
-
-/* Styling for the video iframe */
-.video-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+.investor-details{
+    width:30%;
+    display:flex;
+    justify-content:center;
+    align-item:center;
 }
-
-/* Styling for investor details */
-.investor-details {
-    margin-top: 20px;
+.video-container{
+    width:70%;
+    height:100%;
+    margin-bottom: -4px;
+}
+/* Replace these custom class names with your own if needed */
+.custom-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-/* Styling for investor details items */
-.investor-details div {
-    text-align: center;
-}
-
-/* Styling for the login button */
-.login-button {
-    background-color: #007bff;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
+    padding: 8px;
+  }
+  
+  .custom-left {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+  }
+  
+  .custom-image {
+    max-width: 50px;
+    border-radius: 50%;
+  }
+  
+  .custom-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .custom-heading {
+    margin: 0;
+  }
+  
+  .custom-text {
+    margin: 0;
+  }
+  
+  .custom-right {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .custom-button {
     cursor: pointer;
-}
+    border: 1px solid #000;
+    padding: 4px 8px;
+  }
+  .innerdiv{
+    width:80%;
+  }
+  .upperdiv{
+    width:80%;
+  }
+  
+@media screen and (max-width: 994px) {
+    .target{
+        display:flex;
+        flex-direction:column;
+    }
+    .video-container{
+        width:100%;
+    }
 
-/* Styling for the minimum investment text */
-.minimum-investment {
-    margin-top: 10px;
-    font-size: 14px;
-    color: #777;
-}
+    .investor-details{
+        /* background:black; */
+        width:100%;
+    }
+    .innerdiv{
+        width:100%;
+        /* margin:20px */
+    }
+    .upperdiv{
+        width:100%;
+        margin-Top:20px;
+        margin-Bottom:20px;
+    }
+  }

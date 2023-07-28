@@ -1,11 +1,14 @@
 import React from 'react';
 import InvestmentOption from './InvestmentOption';
 import investmentData from '../investmentData';
+import './invest.css'
 
 const InvestContainer = () => {
   return (
-    <div>
-      <div>
+    <div className='investopen'>
+      
+      <div style={{display:'flex' , flexDirection:'column' , justifyContent:'center' , alignItems:'center'}}>
+      <div style={{width:'80%' , margin:'20px' , padding:'20px' , marginTop:"0px" , marginBottom:"0px" , paddingTop:"0px"}}>
         <h1>Documents</h1>
         <div>
           <a
@@ -18,12 +21,10 @@ const InvestContainer = () => {
         </div>
         <ion-icon name="cloud-download-outline" role="img" aria-label="cloud download outline"></ion-icon>
       </div>
-        {console.log("true")}
       {investmentData.map((option, index) => (
         <InvestmentOption key={index} option={option} />
       ))}
-
-      <div>
+      <div style={{width:'80%' , margin:'20px' , padding:'20px'}}>
         <strong>
           Custom Offer?
           <a href="">
@@ -31,6 +32,8 @@ const InvestContainer = () => {
           </a>
         </strong>
       </div>
+      </div>
+      
     </div>
   );
 };

@@ -8,12 +8,16 @@ import Figure from './components/Figure';
 
 function App() {
   return (
-    <div className="App">
-      <Navbar/>
-      <MidContainer/>
-      <InvestContainer/>
-      <Figure/>
-      <Footer/>
+    <div>
+      <Navbar />
+      <div className='middle' style={{margin:'2rem' , marginTop:"50px"}}>
+        <MidContainer />
+        <div style={{display:'flex'}}>
+          <Figure />
+          <InvestContainer />
+        </div>
+      </div>
+      <Footer />
     </div>
   );
 }

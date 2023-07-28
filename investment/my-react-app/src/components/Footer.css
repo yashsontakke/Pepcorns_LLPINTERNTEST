@@ -1,7 +1,8 @@
 /* Style the footer container */
 .footer-container {
-    background-color: #f0f0f0;
+
     padding: 20px;
+    color:white
 }
 
 /* Style the footer content */
@@ -10,97 +11,101 @@ footer {
     justify-content: space-between;
     max-width: 1200px;
     margin: 0 auto;
+    color:white
 }
 
 /* Style the logo */
 .logo {
     width: 100px;
     height: auto;
+    color:white
 }
 
 /* Style the social media icons */
 ul.social-media li {
     display: inline-block;
     margin-right: 10px;
+    color:white
 }
 
 /* Style the footer links */
 ul.footer-links {
     list-style: none;
     padding: 0;
+    color:white
 }
 
 ul.footer-links li {
     margin-bottom: 10px;
+    color:white
 }
 
 ul.footer-links h4 {
     margin-bottom: 15px;
+    color:white
 }
 
 ul.footer-links a {
-    color: #333;
+
     text-decoration: none;
+    color:white
 }
 
 /* Style the contact information */
 ul.contact-info {
     list-style: none;
     padding: 0;
+    color:white
 }
 
 ul.contact-info li {
     display: flex;
     align-items: center;
     margin-bottom: 10px;
+    color:white
 }
 
 ul.contact-info .material-symbols-outlined {
     margin-right: 5px;
+    color:white
 }
 
 /* Style the legal links */
 ul.legal-links {
     list-style: none;
     padding: 0;
+    color:white
 }
 
 ul.legal-links li {
     margin-bottom: 10px;
+    color:white
 }
 
 ul.legal-links a {
-    color: #555;
+
     text-decoration: none;
+    color:white
 }
 
 /* Style the disclaimer paragraph */
 .disclaimer {
     font-size: 14px;
-    color: #777;
     margin-top: 20px;
+    color:white
 }
 
-/* Media Query for responsiveness */
-@media screen and (max-width: 768px) {
+  /* Mobile View Styling */
+  
+
+
+@media (max-width: 767px) {
     footer {
-        flex-wrap: wrap;
+      flex-direction: column;
+      align-items: center;
     }
 
-    ul.footer-links {
-        flex: 0 0 50%;
-        margin-bottom: 20px;
+    ul.social-media {
+      margin-bottom: 20px;
     }
-
-    ul.footer-links h4 {
-        margin-bottom: 10px;
-    }
-
-    ul.legal-links {
-        flex: 0 0 50%;
-    }
-
-    .disclaimer {
-        margin-top: 10px;
-    }
-}
+  }

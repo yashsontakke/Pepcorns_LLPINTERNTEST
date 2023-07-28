@@ -1,0 +1,80 @@
+.mobile-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .logo {
+    height: 40px;
+  }
+  
+  .mobile-navbar__right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .mobile-menu {
+    width: 250px; /* Adjust the width of the menu as needed */
+    padding: 20px;
+    background-color: #f1f1f1;
+  }
+  
+  .mobile-menu ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .mobile-menu li {
+    margin-bottom: 10px;
+  }
+  
+  .mobile-menu a {
+    color: #333;
+    text-decoration: none;
+    display: block;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+  }
+  
+  .mobile-menu a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Styles for the dropdown menu */
+  .dropDown {
+    position: relative;
+  }
+  
+  .dropBtn {
+    cursor: pointer;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    border: 1px solid #ddd;
+    z-index: 1;
+  }
+  
+  .dropDown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Media query for small screens (optional) */
+  @media (max-width: 768px) {
+    .mobile-navbar__right {
+      /* Adjust the right side margin to separate the logo and hamburger icon */
+      margin-right: 10px;
+    }
+  
+    .mobile-menu {
+      width: 200px; /* Adjust the width of the menu for smaller screens */
+    }
+  }
+  
